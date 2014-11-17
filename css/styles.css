@@ -1,0 +1,95 @@
+.navbar-header {
+background-color: white;
+float: left; 
+}
+
+.icon-bar {
+background-color: black;
+}
+
+h1 {
+font-family: 'Nunito', sans-serif;
+color: #d02027;
+font-size: 500%;
+float: left;
+}
+
+h2 {
+font-family: 'Carme', sans-serif;
+color: #21418a;
+}
+
+h3 {
+font-family: 'Josefin Slab', serif;
+}
+
+.copy {
+font-family: 'Slabo 27px', serif;
+font-size: 120%;
+line-height: 30px;
+}
+
+nav a {
+font-family: 'Carme', sans-serif;
+color: #21418a;
+
+
+
+
+}
+
+.active {
+color: #f68929;
+
+}
+
+.navbar-header {
+float: left;
+}
+
+body {
+padding-bottom: 40px;
+
+}
+
+@media (min-width: 768px) {
+
+.navbar-header {
+float: left;
+}
+
+nav li {
+display: inline;
+padding: 10px;
+}
+
+.logo {
+width: 30%;
+}
+
+nav a {
+color: #f68929;
+}
+
+.active {
+color: #e1cb26;
+}
+
+nav {
+background: #21418a;
+}
+
+
+
+}
+
+
+@media (min-width: 992px) {
+
+
+
+
+
+
+}
+
