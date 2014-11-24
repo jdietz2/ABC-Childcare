@@ -1,5 +1,4 @@
 .navbar-header {
-background-color: white;
 float: left; 
 }
 
@@ -10,7 +9,7 @@ background-color: black;
 h1 {
 font-family: 'Nunito', sans-serif;
 color: #d02027;
-font-size: 500%;
+font-size: 200%;
 float: left;
 }
 
@@ -32,10 +31,12 @@ line-height: 30px;
 nav a {
 font-family: 'Carme', sans-serif;
 color: #21418a;
+}
 
 
-
-
+.largecopy {
+font-family: 'Josefin Slab', serif;
+font-size: 150%;
 }
 
 .active {
@@ -43,9 +44,22 @@ color: #f68929;
 
 }
 
-.navbar-header {
-float: left;
+.room {
+padding-top: 20px;
+padding-bottom: 40px;
 }
+
+.homepage {
+padding-bottom: 40px;
+}
+
+.image {
+}
+
+.images {
+padding-bottom: 40px;
+}
+
 
 body {
 padding-bottom: 40px;
@@ -56,11 +70,12 @@ padding-bottom: 40px;
 
 .navbar-header {
 float: left;
+background-color: #21418a;
 }
 
 nav li {
 display: inline;
-padding: 10px;
+padding: 9px;
 }
 
 .logo {
@@ -69,7 +84,9 @@ width: 30%;
 
 nav a {
 color: #f68929;
+font-size: 100%;
 }
+
 
 .active {
 color: #e1cb26;
@@ -77,8 +94,24 @@ color: #e1cb26;
 
 nav {
 background: #21418a;
+padding-top: 45px;
 }
 
+.navbar-brand {
+width: 2px;
+height: 1px;
+}
+
+.homepage {
+padding-bottom: 40px;
+}
+
+.image {
+}
+
+.images {
+padding-bottom: 40px;
+}
 
 
 }
@@ -87,9 +120,29 @@ background: #21418a;
 @media (min-width: 992px) {
 
 
+nav a {
+font-size: 140%;
+}
 
+nav li {
+padding: 25px;
+}
 
+nav {
+padding-top: 100px;
+}
 
+.navbar-header {
+height: 1px;
+}
+
+.copy {
+padding-bottom: 20px;
+}
+
+.form {
+padding-bottom: 30px;
+}
 
 }
 
